@@ -9,4 +9,4 @@ for (let i = a; i <= b; ++i) {
     }
 }
 
-console.log('Suma este = ' + sum);
+alert('Suma este = ' + sum);
