@@ -6,7 +6,7 @@ console.log(styles);
 styles[2] = 'Рок-н-рол'
 console.log(styles);
 
-//3)Adugarea si inlacuirea 
+//3)Adugarea si inlocuirea 
 styles.splice(1, 1, 'Классика');
 console.log(styles);
 

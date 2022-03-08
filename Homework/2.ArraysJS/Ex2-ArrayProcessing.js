@@ -23,7 +23,7 @@ console.log(`Studentul cu nota media cea mai mare este ${max.name} cu media ${ma
 
 let [min] = studentList;
 Math.min(...studentList.map(item => item.marks));
-console.log(`Studentul cu nota medie minima ${min}`)
+console.log(`Studentul cu nota medie minima ${min.name}`)
 
 let avgSort = averages;
 console.log(avgSort.sort((item, index) => item.avg - index.avg));
